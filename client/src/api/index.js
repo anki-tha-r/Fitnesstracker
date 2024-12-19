@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://fitnesstracker-6-idba.onrender.com/api/",
+  baseURL: "https://fitnesstracker-3-vt1c.onrender.com/api/",
 });
 
 export const UserSignUp = async (data) => API.post("/user/signup", data);
